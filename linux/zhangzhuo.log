@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.9.30)  16 DEC 2013 16:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.9.30)  16 DEC 2013 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**work.tex
-(./work.tex
+**zhangzhuo.tex
+(./zhangzhuo.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -181,8 +181,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip44
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 16.
- (./work.aux)
-\openout1 = `work.aux'.
+
+No file zhangzhuo.aux.
+\openout1 = `zhangzhuo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
@@ -198,7 +199,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
-
 (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
@@ -226,10 +226,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 54.
 LaTeX Info: Redefining \pageref on input line 54.
 LaTeX Info: Redefining \nameref on input line 54.
- (./work.out)
-(./work.out)
 \@outlinefile=\write3
-\openout3 = `work.out'.
+\openout3 = `zhangzhuo.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 65.
@@ -238,7 +236,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 65.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 65.
- (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
+
+(/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -276,21 +275,28 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
- (./work.aux)
+ (./zhangzhuo.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
-Package rerunfilecheck Info: File `work.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `zhangzhuo.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `zhangzhuo.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 5150 strings out of 493311
- 76498 string characters out of 6143650
- 164412 words of memory out of 5000000
- 8579 multiletter control sequences out of 15000+600000
- 10711 words of font info for 40 fonts, out of 8000000 for 9000
+ 5142 strings out of 493311
+ 76460 string characters out of 6143650
+ 164308 words of memory out of 5000000
+ 8578 multiletter control sequences out of 15000+600000
+ 10366 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,7n,25p,300b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,7n,25p,317b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -299,11 +305,11 @@ r9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on work.pdf (1 page, 139591 bytes).
+/cm/cmtt9.pfb>
+Output written on zhangzhuo.pdf (1 page, 130209 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
