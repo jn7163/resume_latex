@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Arch Linux) (format=xelatex 2014.3.23)  25 MAR 2014 04:40
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Arch Linux) (format=xelatex 2014.3.23)  25 MAY 2014 01:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1092,9 +1092,9 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 15--15
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 15.
+(Font)              <7> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 15.
+(Font)              <5> on input line 23.
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -1107,14 +1107,14 @@ l.33 \end{rSubsection}
 ? 
 [1
 
-] [2] (./Zhuozhang.aux) ) 
+] (./Zhuozhang.aux) ) 
 Here is how much of TeX's memory you used:
- 18277 strings out of 493918
- 374717 string characters out of 6153679
- 419450 words of memory out of 5000000
- 21391 multiletter control sequences out of 15000+600000
+ 18268 strings out of 493918
+ 374336 string characters out of 6153679
+ 415430 words of memory out of 5000000
+ 21382 multiletter control sequences out of 15000+600000
  3768 words of font info for 30 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  69i,6n,59p,10376b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Zhuozhang.pdf (2 pages).
+Output written on Zhuozhang.pdf (1 page).
