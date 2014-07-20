@@ -24,12 +24,21 @@
 \item 获奖情况:
 \begin{itemize}
 \itemsep -0.5em \vspace{-0.5em}
-\item[$\cdot$] 张明华综合奖学金 (20\%)
-\item[$\cdot$] 新生奖学金 (20\%)
+\item[$\cdot$] 张明华综合奖学金 (20\%) 新生奖学金 (20\%)
 \end{itemize}
+\item 课程:
+	\begin{itemize}
+	\itemsep -0.5em \vspace{-0.5em}
+	\item[$\cdot$] 人工智能，高性能计算，高级数据库，数值分析，计算机系统结构，网络编程，搜索引擎
+	\end{itemize}
 \end{eSubsection}
 \vspace{-0.8em}
 \begin{rSubsection}{香港大学计算机系}{香港}{校派交换学习}{08/2013 - 12/2013}
+\item 课程:
+	\begin{itemize}
+	\itemsep -0.5em \vspace{-0.5em}
+	\item[$\cdot$] 编译原理，操作系统，高级算法，模式识别，数据库
+	\end{itemize}
 \end{rSubsection}
 \end{rSection}
 \vspace{-1.0em}
@@ -38,11 +47,11 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{工作经验}
-\begin{rSubsection}{Hulu}{北京}{推荐与个性化组}{02/2014 - 至今}
+\begin{rSubsection}{Hulu}{北京}{推荐与个性化组}{02/2014 - 07/2014}
 \vspace{-0.4em}
-\item 在Hadoop平台上编写一些推荐算法，例如协同过滤
-\item 负责推荐模块管理系统的维护与新功能添加
-\item 设计实现基于剧集元信息的推荐模型
+\item 构建一个供研究人员可视化评估算法的网站(Django)
+\item 依据日志统计点击率等信息(Hadoop)
+\item 实现了几个在线服务API(Java)
 \end{rSubsection}
 \vspace{-0.8em}
 \begin{rSubsection}{Face++}{北京}{核心技术组}{12/2013 - 01/2014}
@@ -52,24 +61,33 @@
 \end{rSubsection}
 \end{rSection}
 \vspace{-1.0em}
-\begin{rSection}{项目经历}
-\begin{sSubsection}{Minicompiler}{10/2013}
-\item 利用flex和bison构建一个编译器
-\item 源语言类似于C，目标汇编语言类似于MIPS架构
-\end{sSubsection}
-\vspace{-0.8em}
-\begin{sSubsection}{AntiMalware}{10/2013}
-\item 获取Android恶意软件数据集，并提取静态特征500多个
-\item 利用libweka对数据分析，并评估不同的分类算法
-\item 开发一个简单的命令行工具，可判断新的App是否为恶意软件
-\end{sSubsection}
-\vspace{-0.8em}
-\end{rSection}
 \begin{rSection}{技能}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-熟练 & C, C++, Python, Bash, SQL, Linux常用工具 \\
-熟悉 & Haskell, Java, Javascript, Hadoop, Django, Unix Programming, Git \\
-用过 & Rails, Node.js, MPI
-\end{tabular}
+	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+	熟练 & C++, C, Python, Bash, SQL, Linux常用工具 \\
+	熟悉 & Javascript, Haskell, Java, Hadoop, Django, Git \\
+	用过 & Scala, Node.js, Unix系统编程
+	\end{tabular}
+\end{rSection}
+\begin{rSection}{项目经历}
+\begin{sSubsection}{微博压力预测}{}
+\item 新浪微博用户的心理压力检测．我是实现了算法后端，利用词袋模型做分类预测，利用TF-IDF做压力关键词提取．
+\end{sSubsection}
+\vspace{-0.8em}
+\begin{sSubsection}{Kademlia}{}
+\item 利用Python Socket实现一个P2P用户分享文件和信息的网络软件．使用了Kademlia分布式哈希表协议．
+\end{sSubsection}
+\vspace{-0.8em}
+\begin{sSubsection}{新加坡地图}{}
+\item 使用Js Google Map API和Flask做出一个新加坡地图．主要为了展示几种高级字符串检索相关的算法的性能．使用Ctypes调用C++动态库．
+\end{sSubsection}
+\vspace{-0.8em}
+\begin{sSubsection}{Minicompiler}{}
+\item 利用flex和bison构建一个编译器，源语言类似于C，目标汇编语言类似于MIPS架构
+\end{sSubsection}
+\vspace{-0.8em}
+\begin{sSubsection}{AntiMalware}{}
+\item 利用标注好的Android App恶意和普通数据集提取特征，之后用libweka中的机器学习算法分类
+\end{sSubsection}
+\vspace{-0.8em}
 \end{rSection}
 \end{document}
